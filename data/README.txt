@@ -1,6 +1,6 @@
 ##############################################################################################################################################################################
 ENGLISH
-The data is collected on auctions in popular North American companies starting from the date of the introduction of accounting and until the closing of trading on 2023-09-07.
+The data is collected on trades in popular North American companies for 60 days with an interval of 5 minutes.
 List of companies with decryption:
 AAPL - Apple
 AMAZON - Amazon
@@ -11,7 +11,7 @@ MSFT - Microsoft
 
 ##############################################################################################################################################################################
 Русский
-Данные собраны по торгам в популярных североамериканских компаниях начиная с даты введения учёта и до закрытия торгов 2023-09-07.
+Данные собраны по торгам в популярных североамериканских компаниях за 60 дней с интервалом в 5 минут.
 Список компаний с расшифровкой:
 AAPL - Apple
 AMAZON - Amazon
