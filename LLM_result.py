@@ -15,8 +15,7 @@ from langchain.prompts import ChatPromptTemplate
 from secret_key import api_key, api_key_finance
 warnings.filterwarnings('ignore')
 
-# JUST TO CHECK
-tick = 'AAPL'
+
 
 def NLP_stocks(tick):
 
@@ -69,8 +68,7 @@ def NLP_stocks(tick):
 
     llm = ChatOpenAI(openai_api_key=api_key,
                                 model_name='gpt-3.5-turbo-16k',    # gpt-3.5-turbo | gpt-3.5-turbo-16k  | gpt-4
-                                temperature=0.3,
-                                request_timeout=120)
+                                temperature=0.3)
 
 
     def subj_sent_analyzer(df):
@@ -113,5 +111,3 @@ def NLP_stocks(tick):
     news_response = news_analyzer(news_data_sent_subj)
 
     return subj_sent_response+'\n\n'+news_response
-
-print(NLP_stocks(tick))
